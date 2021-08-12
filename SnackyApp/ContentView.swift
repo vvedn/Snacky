@@ -26,14 +26,15 @@ struct ContentView: View {
             }
 
             VStack{
-            Button("I'm having a craving", action: signIn)
-                .font(.system(size: 30,design: .Unna))
-                .foregroundColor(Color.white)
-                .backgrounds(Color.black)
-            Button("Surprise me", action: signIn)
-                .font(.system(size: 30,design: .Unna))
-                .foregroundColor(Color.white)
-                .background(Color.black)
+                //start of buttons
+            Button("I'm having a craving", action: {
+                print("Craving")
+            })
+                
+            Button("Surprise me", action: {
+                print("Craving")
+            })
+            
             }
 
 

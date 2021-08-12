@@ -16,6 +16,7 @@ struct ContentView: View {
                     LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .top, endPoint: .bottom)
                         .ignoresSafeArea()
             VStack{
+            VStack{
             Text("Welcome to Snacky.")
                 .font(.system(size: 50,design: .serif))
                 .italic()
@@ -35,6 +36,7 @@ struct ContentView: View {
                 print("Craving")
             })
             
+            }
             }
 
 

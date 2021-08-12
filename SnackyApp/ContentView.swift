@@ -18,6 +18,8 @@ struct ContentView: View {
             Text("Welcome to Snacky.")
                 .font(.system(size: 50,design: .serif))
                 .italic()
+            Text("Choose an option to start.")
+                .font(.system(size: 20,design: .serif))
             
                     // Your other content here
                     // Other layers will respect the safe area edges

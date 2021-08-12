@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
 
         ZStack {
-                    Color.green
+                    LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .top, endPoint: .bottom)
                         .ignoresSafeArea()
             VStack{
             Text("Welcome to Snacky.")
@@ -21,10 +21,22 @@ struct ContentView: View {
                 .italic()
             Text("Choose an option to start.")
                 .font(.system(size: 20,design: .serif))
-            
-                    // Your other content here
+                    // Your other content here        
                     // Other layers will respect the safe area edges
             }
+
+            VStack{
+            Button("I'm having a craving", action: signIn)
+                .font(.system(size: 30,design: .Unna))
+                .foregroundColor(Color.white)
+                .backgrounds(Color.black)
+            Button("Surprise me", action: signIn)
+                .font(.system(size: 30,design: .Unna))
+                .foregroundColor(Color.white)
+                .background(Color.black)
+            }
+
+
             }
             
         

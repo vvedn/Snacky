@@ -15,6 +15,7 @@ struct ContentView: View {
         ZStack {
                     Color.green
                         .ignoresSafeArea()
+            VStack{
             Text("Welcome to Snacky.")
                 .font(.system(size: 50,design: .serif))
                 .italic()
@@ -24,6 +25,8 @@ struct ContentView: View {
                     // Your other content here
                     // Other layers will respect the safe area edges
             }
+            }
+            
         
     }
 }

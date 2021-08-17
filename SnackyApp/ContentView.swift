@@ -18,25 +18,46 @@ struct ContentView: View {
             VStack{
             VStack{
             Text("Welcome to Snacky.")
-                .font(.custom("Unna", size: 50))
+                .font(.system(size: 50,design: .serif))
                 .italic()
             Text("Choose an option to start.")
-                .font(.custom("Unna", size: 20))
+                .font(.system(size: 20,design: .serif))
                     // Your other content here        
                     // Other layers will respect the safe area edges
             }
 
             VStack{
                 //start of buttons
-            Button("I'm having a craving", action: {
-                print("Craving")
-            })
-                
-            Button("Surprise me", action: {
-                print("Craving")
-            })
-            
+            Button(action: {
+                print("User has craving!")
+            }) {
+                Text("I'm having a craving")
+                    .font(.system(size: 25,design: .serif))
             }
+            Button(action: {
+                print("User wants surprise!")
+            }) {
+                Text("Surprise Me!")
+                    .font(.system(size: 25,design: .serif))
+            }
+
+
+            }
+            TabView {
+                    .tabItem {
+                        Image(systemName: "1.square.fill")
+                        Text("Home")
+                    }
+                    .tabItem {
+                        Image(systemName: "2.square.fill")
+                        Text("Explore")
+                    }
+                    .tabItem {
+                        Image(systemName: "3.square.fill")
+                        Text("Settings")
+                    }
+            }
+
             }
 
 

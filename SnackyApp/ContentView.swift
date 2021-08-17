@@ -13,15 +13,15 @@ struct ContentView: View {
     var body: some View {
 
         ZStack {
-                    LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .top, endPoint: .bottom)
+                    LinearGradient(gradient: Gradient(colors: [UIColor(red: 0.91, green: 1.00, blue: 0.89, alpha: 1.00), UIColor(red: 0.62, green: 0.93, blue: 0.87, alpha: 1.00)]), startPoint: .top, endPoint: .bottom)
                         .ignoresSafeArea()
             VStack{
             VStack{
             Text("Welcome to Snacky.")
-                .font(.system(size: 50,design: .serif))
+                .font(.custom("Unna", size: 50))
                 .italic()
             Text("Choose an option to start.")
-                .font(.system(size: 20,design: .serif))
+                .font(.custom("Unna", size: 20))
                     // Your other content here        
                     // Other layers will respect the safe area edges
             }

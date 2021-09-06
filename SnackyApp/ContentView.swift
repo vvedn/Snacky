@@ -12,6 +12,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
 
+        NavigationView{
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .top, endPoint: .bottom)
                         .ignoresSafeArea()
@@ -28,15 +29,26 @@ struct ContentView: View {
 
             VStack{
                 //start of buttons
-            Button("I'm having a craving", action: {
-                print("Craving")
-            })
+                NavigationLink(destination: CravingView()){
+                            Text("I'm having a craving")
+                }
+                
+            //    Button("I'm having a craving", action: {
+              //  print("Craving")
+          //  })
+               
                 
             Button("Surprise me", action: {
                 print("Craving")
             })
+            Divider()
+            
+            
             
             }
+            }
+                
+                
             }
 
 

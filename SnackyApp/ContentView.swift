@@ -33,6 +33,8 @@ struct ContentView: View {
                             Text("I'm having a craving")
                             .background(Color.green)
                             .foregroundColor(.white)
+                            .padding(25)
+                            .cornerRadius(10)
                 }
                 
             //    Button("I'm having a craving", action: {
@@ -45,6 +47,8 @@ struct ContentView: View {
             })
             .background(Color.green)
             .foregroundColor(.white)
+            .padding(25)
+            .cornerRadius(10)
             Divider()
             
             

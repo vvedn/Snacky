@@ -31,11 +31,13 @@ struct ContentView: View {
                 //start of buttons
                 NavigationLink(destination: CravingView()){
                             Text("I'm having a craving")
+                            
+                           
                             .padding(25)
-                            .cornerRadius(40)
                             .background(Color.green)
                             .foregroundColor(.white)
-                            .font(.custom(size: 20))
+                            .cornerRadius(40)
+                            .font(.custom("Unna",size: 20))
                             
                 }
                 
@@ -48,10 +50,10 @@ struct ContentView: View {
                 print("Craving")
             })
             .padding(25)
-            .cornerRadius(40)
             .background(Color.green)
             .foregroundColor(.white)
-            .font(.custom(size: 20))
+            .cornerRadius(40)
+            .font(.custom("Unna",size: 20))
             
             Divider()
             
@@ -61,7 +63,8 @@ struct ContentView: View {
             }
                 
                 
-            }
+        }
+            
 
 
             }

@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CravingView: View {
     var body: some View {
+        NavigationView{
         ZStack {
             LinearGradient(gradient: Gradient(colors: [.green, .blue]), startPoint: .top, endPoint: .bottom)
                         .ignoresSafeArea()
@@ -17,15 +18,31 @@ struct CravingView: View {
             //start of buttons
             
             Text("What are you feeling right now?")
-        Button("Salty", action: {
-            print("Craving")
-        })
+        
+        NavigationLink(destination: RestrictionView()){
+            Button("Salty", action: {
+                print("Salty")
+            }).background(Color.green)
+            .foregroundColor(.white)
+                        
+            }
             
-        Button("Sweet", action: {
-            print("Craving")
-        })
+        
+        NavigationLink(destination: RestrictionView()){
+            
+            Button("Sweet", action: {
+                    print("Sweet")
+                }).background(Color.green)
+                .foregroundColor(.white)
+                            
+                }
+        
+ 
+            
+            
         }
     }
+        }
 }
          
 }

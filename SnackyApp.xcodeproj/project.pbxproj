@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2636DD6526CC385700DE8FAC /* CravingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2636DD6426CC385700DE8FAC /* CravingView.swift */; };
+		26A2AA5926EEBB26005CFA2F /* RestrictionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A2AA5826EEBB26005CFA2F /* RestrictionView.swift */; };
 		26B29B9B26BDB64300457C64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B29B9A26BDB64300457C64 /* AppDelegate.swift */; };
 		26B29B9D26BDB64300457C64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B29B9C26BDB64300457C64 /* SceneDelegate.swift */; };
 		26B29B9F26BDB64300457C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26B29B9E26BDB64300457C64 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2636DD6426CC385700DE8FAC /* CravingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CravingView.swift; sourceTree = "<group>"; };
+		26A2AA5826EEBB26005CFA2F /* RestrictionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrictionView.swift; sourceTree = "<group>"; };
 		26B29B9726BDB64300457C64 /* SnackyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnackyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26B29B9A26BDB64300457C64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		26B29B9C26BDB64300457C64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				26B29B9A26BDB64300457C64 /* AppDelegate.swift */,
 				26B29B9C26BDB64300457C64 /* SceneDelegate.swift */,
 				26B29B9E26BDB64300457C64 /* ContentView.swift */,
+				26A2AA5826EEBB26005CFA2F /* RestrictionView.swift */,
 				2636DD6426CC385700DE8FAC /* CravingView.swift */,
 				26B29BA026BDB64400457C64 /* Assets.xcassets */,
 				26B29BA526BDB64400457C64 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				26B29B9B26BDB64300457C64 /* AppDelegate.swift in Sources */,
+				26A2AA5926EEBB26005CFA2F /* RestrictionView.swift in Sources */,
 				26B29B9D26BDB64300457C64 /* SceneDelegate.swift in Sources */,
 				2636DD6526CC385700DE8FAC /* CravingView.swift in Sources */,
 				26B29B9F26BDB64300457C64 /* ContentView.swift in Sources */,

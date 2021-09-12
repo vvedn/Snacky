@@ -21,8 +21,12 @@ struct ContentView: View {
             Text("Welcome to Snacky.")
                 .font(.custom("Unna", size: 50))
                 .italic()
+                .background(Color.green)
+                .foregroundColor(.white)
             Text("Choose an option to start.")
                 .font(.custom("Unna", size: 20))
+                .background(Color.green)
+                .foregroundColor(.white)
                     // Your other content here        
                     // Other layers will respect the safe area edges
             }

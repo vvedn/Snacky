@@ -21,7 +21,7 @@ struct RestrictionView: View {
             print("Dietary Restriction")
         })
             
-        Button("Sweet", action: {
+        Button("No", action: {
             print("No Restriction")
         })
         }

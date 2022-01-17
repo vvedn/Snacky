@@ -22,7 +22,7 @@ struct CravingView: View {
         NavigationLink(destination: RestrictionView()){
             Button("Salty", action: {
                 print("Salty")
-            }).padding(25).background(Color.green)
+            }).padding(25).background(Color.black)
             .foregroundColor(.white)
             .font(.custom("Unna",size: 20))
                         
